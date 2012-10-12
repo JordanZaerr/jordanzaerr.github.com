@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Yeti | Jordan Zaerr's Blog]]></title>
+  <link href="http://JordanZaerr.github.com/blog/categories/yeti/atom.xml" rel="self"/>
+  <link href="http://JordanZaerr.github.com/"/>
+  <updated>2012-10-12T15:17:11-06:00</updated>
+  <id>http://JordanZaerr.github.com/</id>
+  <author>
+    <name><![CDATA[Jordan Zaerr]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WMA repair using Yeti]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti/"/>
+    <updated>2012-10-12T13:11:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti</id>
+    <content type="html"><![CDATA[<p>Figured I would put this up here.</p>
+
+<p><div><script src='https://gist.github.com/3881245.js?file='></script>
+<noscript><pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;title&gt;Notification: Policy Acknowledgement&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color:#333333;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0px;
+  color: #2970A6;
+}
+a:link {
+    color: #2970A6;
+  text-decoration: none;
+}
+p.buttonlink {
+  margin-bottom: 24px;
+}
+a:hover {
+    color: #2970A6;
+  text-decoration: underline;
+}
+.copyright {
+  font-size: 12px;
+  color: #666666;
+  margin: 5px 5px 0px 30px;
+
+}
+.details {
+  font-size: 14px;
+  color: #969696;
+  border: none;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 10px 10px 35px;
+}
+
+.shadow {
+  border: 3px solid #9f9f9f;
+  padding: 10px 25px 10px 25px;
+  margin: 10px 35px 0px 30px;
+  background-color: #ffffff;
+  width: 600px;
+
+  -moz-box-shadow: 3px 3px 3px #cccccc;
+  -webkit-box-shadow: 3px 3px 3px #cccccc;
+  box-shadow: 3px 3px 3px #cccccc;
+  /* For IE 8 */
+  -ms-filter: &quot;progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc')&quot;;
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc');
+}
+.logo {
+  border: none;
+  margin: 5px 5px 0px 30px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;https://www.extendhealth.com/Images/Logos/extend_health_175x75.png&quot; border=&quot;0&quot;&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;shadow&quot;&gt;
+&lt;h1&gt;Internet Access Policy Acknowledgement&lt;/h1&gt;
+
+
+&lt;p&gt;
+Please acknowledge the following statements before accessing the Internet.
+&lt;/p&gt;
+
+&lt;p&gt;
+Your web transactions will be automatically monitored and processed to
+detect dangerous content and to enforce organization's policies. By clicking the link
+below, you acknowledge this monitoring and accept that data about the sites you
+visit may be recorded. You will be periodically asked to acknowledge the presence
+of the monitoring system. You are responsible for following organization's policies
+on Internet access.
+&lt;/p&gt;
+
+
+
+&lt;p&gt;
+&lt;a href=&quot;http://shwsa.extendhealth.com/0:604800:604800:28556e61757468656e746963617465642931302e312e32312e3435405f5f67756573745f7265616c6d5f5f@00000000507888da/b30d0aed18d273606c0da42cc73a25b9/1348675135/https://raw.github.com/gist/3881245/&quot;&gt;Click here to accept this statement and access the Internet.&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;&lt;p&gt;
+Date: Fri, 12 Oct 2012 15:17:14 MDT&lt;br /&gt;
+Username: (Unauthenticated)10.1.21.45&lt;br /&gt;
+Source IP: 10.1.21.45&lt;br /&gt;
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></noscript></div>
+</p>
+
+<p>As you can see this is a simple one liner. It takes in the filename and will repair it in place.
+Making a copy of the file before it's repaired might be a good idea. This method reconstructs the header information
+on the WMA file so that it is in a valid state again.  This fixes issues like players not knowing the length of a file,
+not being able to skip through the file, and more importantly not being able to convert the file to another format or
+splicing/combining. You can alternatively pass a stream into the method instead of a file name. The second parameter should
+almost always be false. It signifies if the file/stream being passed in is a broadcast.</p>
+]]></content>
+  </entry>
+  
+</feed>
