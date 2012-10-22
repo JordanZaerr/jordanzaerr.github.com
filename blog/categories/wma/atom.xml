@@ -4,7 +4,7 @@
   <title><![CDATA[Category: WMA | Jordan Zaerr's Blog]]></title>
   <link href="http://JordanZaerr.github.com/blog/categories/wma/atom.xml" rel="self"/>
   <link href="http://JordanZaerr.github.com/"/>
-  <updated>2012-10-12T15:17:11-06:00</updated>
+  <updated>2012-10-12T16:03:59-06:00</updated>
   <id>http://JordanZaerr.github.com/</id>
   <author>
     <name><![CDATA[Jordan Zaerr]]></name>
@@ -131,7 +131,197 @@ Making a copy of the file before it's repaired might be a good idea. This method
 on the WMA file so that it is in a valid state again.  This fixes issues like players not knowing the length of a file,
 not being able to skip through the file, and more importantly not being able to convert the file to another format or
 splicing/combining. You can alternatively pass a stream into the method instead of a file name. The second parameter should
-almost always be false. It signifies if the file/stream being passed in is a broadcast.</p>
+almost always be false. It signifies if the file/stream being passed in is from a broadcast.</p>
+
+<p>Some notible classes would be the FileProperties
+<div><script src='https://gist.github.com/3881775.js?file='></script>
+<noscript><pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;title&gt;Notification: Redirect&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color:#333333;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0px;
+  color: #2970A6;
+}
+a:link {
+    color: #2970A6;
+  text-decoration: none;
+}
+a:hover {
+    color: #2970A6;
+  text-decoration: underline;
+}
+p.buttonlink {
+  margin-bottom: 24px;
+}
+.copyright {
+  font-size: 12px;
+  color: #666666;
+  margin: 5px 5px 0px 30px;
+}
+.copyright_alone {
+  font-size: 12px;
+  color: #666666;
+  margin: 35px 5px 0px 30px;
+}
+.details {
+  font-size: 14px;
+  color: #969696;
+  border: none;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 10px 10px 35px;
+}
+
+.shadow {
+  border: 3px solid #9f9f9f;
+  padding: 10px 25px 10px 25px;
+  margin: 10px 35px 0px 30px;
+  background-color: #ffffff;
+  width: 600px;
+
+  -moz-box-shadow: 3px 3px 3px #cccccc;
+  -webkit-box-shadow: 3px 3px 3px #cccccc;
+  box-shadow: 3px 3px 3px #cccccc;
+  /* For IE 8 */
+  -ms-filter: &quot;progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc')&quot;;
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc');
+}
+.logo {
+  border: none;
+  margin: 5px 5px 0px 30px;
+}
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;https://www.extendhealth.com/Images/Logos/extend_health_175x75.png&quot; border=&quot;0&quot;&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;shadow&quot;&gt;
+&lt;h1&gt;Page Redirection&lt;/h1&gt;
+
+
+&lt;p&gt;
+This request is being redirected. If this page does not automatically
+redirect, &lt;a href=&quot;http://shwsa.extendhealth.com/B0000D0000N0001F0000S0000R0004/https://raw.github.com/gist/3881775/&quot;&gt;click here to proceed&lt;/a&gt;&amp;nbsp;.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></noscript></div>
+</p>
+
+<p>and DataProperties
+<div><script src='https://gist.github.com/3881787.js?file='></script>
+<noscript><pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
+&quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;&gt;
+&lt;title&gt;Notification: Redirect&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color:#333333;
+  background-color: #ffffff;
+}
+h1 {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding-top: 0px;
+  color: #2970A6;
+}
+a:link {
+    color: #2970A6;
+  text-decoration: none;
+}
+a:hover {
+    color: #2970A6;
+  text-decoration: underline;
+}
+p.buttonlink {
+  margin-bottom: 24px;
+}
+.copyright {
+  font-size: 12px;
+  color: #666666;
+  margin: 5px 5px 0px 30px;
+}
+.copyright_alone {
+  font-size: 12px;
+  color: #666666;
+  margin: 35px 5px 0px 30px;
+}
+.details {
+  font-size: 14px;
+  color: #969696;
+  border: none;
+  padding: 20px 20px 20px 20px;
+  margin: 0px 10px 10px 35px;
+}
+
+.shadow {
+  border: 3px solid #9f9f9f;
+  padding: 10px 25px 10px 25px;
+  margin: 10px 35px 0px 30px;
+  background-color: #ffffff;
+  width: 600px;
+
+  -moz-box-shadow: 3px 3px 3px #cccccc;
+  -webkit-box-shadow: 3px 3px 3px #cccccc;
+  box-shadow: 3px 3px 3px #cccccc;
+  /* For IE 8 */
+  -ms-filter: &quot;progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc')&quot;;
+  /* For IE 5.5 - 7 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=5, Direction=135, Color='cccccc');
+}
+.logo {
+  border: none;
+  margin: 5px 5px 0px 30px;
+}
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class=&quot;logo&quot;&gt;&lt;img src=&quot;https://www.extendhealth.com/Images/Logos/extend_health_175x75.png&quot; border=&quot;0&quot;&gt;&lt;/div&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;shadow&quot;&gt;
+&lt;h1&gt;Page Redirection&lt;/h1&gt;
+
+
+&lt;p&gt;
+This request is being redirected. If this page does not automatically
+redirect, &lt;a href=&quot;http://shwsa.extendhealth.com/B0000D0000N0001F0000S0000R0004/https://raw.github.com/gist/3881787/&quot;&gt;click here to proceed&lt;/a&gt;&amp;nbsp;.
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre></noscript></div>
+</p>
+
+<p>These are the classes that read and write the header information about your file.
+The header/section guid's from the ASF spec are in Yeti for the other header/sections but the classes
+haven't been created that to read and write those values.</p>
 ]]></content>
   </entry>
   
