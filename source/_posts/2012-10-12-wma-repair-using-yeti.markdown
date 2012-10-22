@@ -28,3 +28,5 @@ and DataProperties
 These are the classes that read and write the header information about your file.
 The header/section guid's from the ASF spec are in Yeti for the other header/sections but the classes 
 haven't been created that to read and write those values.
+
+...not quite done with this, will add more later when I have time.
