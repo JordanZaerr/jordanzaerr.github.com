@@ -9,6 +9,7 @@ categories:
 ---
 
 Figured I would put this up here, mostly for my own reference for some of the links down below.
+Yeti can be grabbed from its [git repo](https://github.com/mtscout6/yeti).
 
 {% gist 3881245 %}
 
