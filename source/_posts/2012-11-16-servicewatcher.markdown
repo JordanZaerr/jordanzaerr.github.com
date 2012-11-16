@@ -20,6 +20,8 @@ You can additionally start, stop, and kill processes for services by selecting t
 <div style="clear:both; padding-top:25px;">
 The config.xml file that generated the picture above looks like this.
 Make sure you edit this file before you run the solution.
+The server's name attribute is what shows up in the UI and has to either be the name of the machine or 
+the IP address where the services are running.
 {% gist 4090873 %}
 </div>
 
