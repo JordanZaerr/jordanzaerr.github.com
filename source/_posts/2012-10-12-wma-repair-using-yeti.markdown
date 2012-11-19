@@ -20,15 +20,15 @@ not being able to skip through the file, and more importantly not being able to 
 splicing/combining. You can alternatively pass a stream into the method instead of a file name. The second parameter should
 almost always be false. It signifies if the filepath/stream being passed in is from a broadcast.
 
-Some notible classes would be the FileProperties
+Some notable classes would be the FileProperties
 {% gist 3881775 %}
 
 and DataProperties
 {% gist 3881787 %}
 
 These are the classes that read and write the header information for the file.
-The header/section guid's from the ASF spec are in Yeti for the other areas but the classes 
-haven't been created that to read and write those values.
+The header/section guid's from the ASF spec are in Yeti for the other areas 
+but the classes that would read and write those values haven't been created.
 
 If you want to know what those guids are for and what data they point to that information can be found in the ASF specification document found
 [here](http://www.microsoft.com/en-us/download/details.aspx?id=14995).
