@@ -111,9 +111,9 @@ Click on the "Reboot" button
 
 Click on "System" and the device will reboot and you will see this screen again.
 
-{% img /images/KindleFire/FireFireFireMain.jpg %}
+{% img /images/KindleFire/FireFireFireMenu.jpg %}
 
-Hit the power button a few times and choose "Normal" instead of "Recovery" as we did before
+Hit the power button a few times and choose "Normal Boot" instead of "Recovery" as we did before
 and after a bit of time you should be presented with the screens for setting up your kindle.
 
 That's it and if it ever happens again the software to fix the problem is already on the device
