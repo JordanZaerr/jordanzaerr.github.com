@@ -28,9 +28,9 @@ only works on the first generation and will cause problems if used on other gene
 The first thing you are going to need is the Kindle Fire Utility which can be found here:
 [Kindle Fire Utility](http://forum.xda-developers.com/showthread.php?t=2192818)
 
-My screenshots are using version 9.6 and the link I provided at the time of posting 
-is for version 9.9 but the menu choices are basically the same.
-The older thread with version 9.6 is here: [Kindle Fire Utility unmanged thread](http://forum.xda-developers.com/showthread.php?t=1399889)
+My screenshots are using version 0.9.6 and the link I provided at the time of posting 
+is for version 0.9.9 but the menu choices are basically the same.
+The older thread with version 0.9.6 is here: [Kindle Fire Utility unmanged thread](http://forum.xda-developers.com/showthread.php?t=1399889)
 
 Install the drivers for the kindle by running the drivers.bat file that is found in the
 Kindle Fire Utility download and plug in the kindle fire into your computer.
@@ -79,9 +79,10 @@ If you tap the power button (possibly a couple times if it doesn't recognize it 
 You should see it turn into the menu below.
 
 {% img /images/KindleFire/FireFireFireMenu.jpg %}
-Which says:
-Normal Boot
-Recovery
+
+Which says:  
+Normal Boot  
+Recovery  
 Reset Boot Mode
 
 Keep tapping the power button until it selects the Recovery option as in the picture. Once it is selected
