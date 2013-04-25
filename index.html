@@ -9,8 +9,8 @@
   <meta name="author" content="Jordan Zaerr">
 
   
-  <meta name="description" content="Figured I would put this up here, mostly for my own reference for some of the links down below.
-Yeti can be grabbed from its git repository. &lt;! &hellip;">
+  <meta name="description" content="You can grab the code from here:
+Service Watcher This is a simple application that allows you to monitor the status of services on any server that &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +70,82 @@ Yeti can be grabbed from its git repository. &lt;! &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
+        <h1 class="entry-title"><a href="/blog/2012/11/16/servicewatcher/">Service Watcher</a></h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-16T13:40:00-07:00" pubdate data-updated="true">Nov 16<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><!--Yes I know this is bad...-->
+
+
+<p><img src="/images/ServiceWatcher/ServiceWatcher.jpg" style="float: left; margin-right: 15px;"></p>
+
+<p>You can grab the code from here:
+<a href="https://github.com/JordanZaerr/ServiceWatcher">Service Watcher</a></p>
+
+<p>This is a simple application that allows you to monitor the status of services on any server that you have permissions to.</p>
+
+<p>You can additionally start, stop, and kill processes for services by selecting the one you want and clicking the corresponding button.</p>
+
+<div style="clear:both; padding-top:25px;">
+The config.xml file that generated the picture above looks like this.
+Make sure you edit this file before you run the solution.
+The server&#8217;s name attribute is what shows up in the UI and has to either be the name of the machine or 
+the IP address where the services are running.
+<div><script src='https://gist.github.com/4090873.js?file='></script>
+<noscript><pre><code>&lt;Servers&gt;
+    &lt;Server Name=&quot;DevWeb1&quot;&gt;
+        &lt;Services&gt;
+            &lt;Service DisplayName=&quot;Some Service&quot; ShortName=&quot;ServiceShortName&quot;/&gt;
+            &lt;Service DisplayName=&quot;Some Other Service&quot; ShortName=&quot;ServiceShortName&quot;/&gt;
+      &lt;Service DisplayName=&quot;You can call these whatever&quot; ShortName=&quot;ServiceShortName&quot;/&gt;
+        &lt;/Services&gt;
+    &lt;/Server&gt;
+  &lt;Server Name=&quot;QaWeb1&quot;&gt;
+    &lt;Services&gt;
+      &lt;Service DisplayName=&quot;You can call these whatever&quot; ShortName=&quot;ServiceShortName&quot;/&gt;
+    &lt;/Services&gt;
+  &lt;/Server&gt;
+&lt;/Servers&gt;</code></pre></noscript></div>
+
+</div>
+
+
+<p>You can quickly find the service short name by looking it up in the task manager on the Services tab.</p>
+
+<p><img src="/images/ServiceWatcher/TaskManager.jpg"></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -217,7 +293,7 @@ not being able to skip through the file, and more importantly not being able to 
 splicing/combining. You can alternatively pass a stream into the method instead of a file name. The second parameter should
 almost always be false. It signifies if the filepath/stream being passed in is from a broadcast.</p>
 
-<p>Some notible classes would be the FileProperties</p>
+<p>Some notable classes would be the FileProperties</p>
 
 <div><script src='https://gist.github.com/3881775.js?file='></script>
 <noscript><pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot;
@@ -406,8 +482,8 @@ redirect, &lt;a href=&quot;http://shwsa.extendhealth.com/B0000D0000N0001F0000S00
 
 
 <p>These are the classes that read and write the header information for the file.
-The header/section guid&#8217;s from the ASF spec are in Yeti for the other areas but the classes
-haven&#8217;t been created that to read and write those values.</p>
+The header/section guid&#8217;s from the ASF spec are in Yeti for the other areas
+but the classes that would read and write those values haven&#8217;t been created.</p>
 
 <p>If you want to know what those guids are for and what data they point to that information can be found in the ASF specification document found
 <a href="http://www.microsoft.com/en-us/download/details.aspx?id=14995">here</a>.</p>
@@ -438,6 +514,10 @@ The music is from djabacus who is a friend of mine and some of his music can be 
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/11/16/servicewatcher/">Service Watcher</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/10/12/wma-repair-using-yeti/">WMA repair using Yeti</a>
