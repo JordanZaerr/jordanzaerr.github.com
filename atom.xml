@@ -1,235 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Jordan Zaerr's Blog</title>
-  <meta name="author" content="Jordan Zaerr">
-
-  
-  <meta name="description" content=" The code for this post/video can be grabbed from its git repository.
-">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://JordanZaerr.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Jordan Zaerr's Blog" type="application/atom+xml">
-  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <div id="logo">
-  	<div class="clear"></div>
-  </div>
-  <h1><a href="/">Jordan Zaerr's Blog</a></h1>
-  
-    <h2>Anything and everything but mostly software.</h2>
-  
-  <div class="clear"></div>
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:JordanZaerr.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[Jordan Zaerr's Blog]]></title>
+  <link href="http://JordanZaerr.github.com/atom.xml" rel="self"/>
+  <link href="http://JordanZaerr.github.com/"/>
+  <updated>2014-09-26T17:29:27-06:00</updated>
+  <id>http://JordanZaerr.github.com/</id>
+  <author>
+    <name><![CDATA[Jordan Zaerr]]></name>
     
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2014/09/12/polymer/">Polymer</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2014-09-12T15:50:00-06:00" pubdate data-updated="true">Sep 12<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><iframe width="560" height="315" src="//www.youtube.com/embed/aFWNw9h5Qoc" frameborder="0" allowfullscreen></iframe>
+  <entry>
+    <title type="html"><![CDATA[Polymer]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2014/09/12/polymer/"/>
+    <updated>2014-09-12T15:50:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2014/09/12/polymer</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://JordanZaerr.github.com//www.youtube.com/embed/aFWNw9h5Qoc" frameborder="0" allowfullscreen></iframe>
 
 
 <p>The code for this post/video can be grabbed from its <a href="https://github.com/JordanZaerr/TrainRoutesPolymer">git repository</a>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2014/04/25/dart/">Dart</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-04-25T15:37:00-06:00" pubdate data-updated="true">Apr 25<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><iframe width="560" height="315" src="//www.youtube.com/embed/Z2Y3p4CWop4" frameborder="0" allowfullscreen></iframe>
+  <entry>
+    <title type="html"><![CDATA[Dart]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2014/04/25/dart/"/>
+    <updated>2014-04-25T15:37:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2014/04/25/dart</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://JordanZaerr.github.com//www.youtube.com/embed/Z2Y3p4CWop4" frameborder="0" allowfullscreen></iframe>
 
 
 <p>There is a live demo of this application pushed to Heroku <a href="http://websocketschatdemo.herokuapp.com/web/">here</a>
 If you visit that link in multiple tabs you should be able to hold a conversation.</p>
 
 <p>The code for this post/video can be grabbed from its <a href="https://github.com/JordanZaerr/WebSocketsChatDemo">git repository</a>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2014/02/18/signalr/">SignalR</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-02-18T15:29:00-07:00" pubdate data-updated="true">Feb 18<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><iframe width="560" height="315" src="//www.youtube.com/embed/Hv6ZAWFOfRE" frameborder="0" allowfullscreen></iframe>
+  <entry>
+    <title type="html"><![CDATA[SignalR]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2014/02/18/signalr/"/>
+    <updated>2014-02-18T15:29:00-07:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2014/02/18/signalr</id>
+    <content type="html"><![CDATA[<iframe width="560" height="315" src="http://JordanZaerr.github.com//www.youtube.com/embed/Hv6ZAWFOfRE" frameborder="0" allowfullscreen></iframe>
 
 
 <p>I&#8217;ll be the first to admit I&#8217;m not the best presenter out there and this was the first one I&#8217;ve given in awhile but hopefully it will prove useful.</p>
 
 <p>The code for this post/video can be grabbed from its <a href="https://github.com/JordanZaerr/ChatRoom">git repository</a>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2013/04/24/resettingkindlefire/">Fixing a Kindle Fire Stuck in Bootloop</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-24T20:13:00-06:00" pubdate data-updated="true">Apr 24<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Basically boot looping is when you see the &#8220;Kindle Fire&#8221; logo over and over again when
+  <entry>
+    <title type="html"><![CDATA[Fixing a Kindle Fire Stuck in Bootloop]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2013/04/24/resettingkindlefire/"/>
+    <updated>2013-04-24T20:13:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2013/04/24/resettingkindlefire</id>
+    <content type="html"><![CDATA[<p>Basically boot looping is when you see the &#8220;Kindle Fire&#8221; logo over and over again when
 you power on the device and it doesn&#8217;t do anything else.</p>
 
 <p>I have no idea what happens to the Kindle Fire to get it into this state but my sister
@@ -259,14 +89,14 @@ Kindle Fire Utility download and plug in the kindle fire into your computer.</p>
 <p>Once your device is recognized by your computer start the Kindle Fire Utility by running the run.bat
 file and you should see the following</p>
 
-<p><img src="/images/KindleFire/KFUHome.png"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/KFUHome.png"></p>
 
 <p>If your boot status isn&#8217;t 4000 that fine we are about to change it into fastboot(4002) anyway to
 install some additional software. You do have to have an ADB Status of &#8220;Online&#8221; though.</p>
 
 <p>Hit 1 and press enter to choose the Bootmode Menu and you should be looking at</p>
 
-<p><img src="/images/KindleFire/KFUBoot.png"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/KFUBoot.png"></p>
 
 <p>Hit 2 and enter and your device should reboot in a few seconds and stay on the &#8220;Kindle Fire&#8221; logo.</p>
 
@@ -275,11 +105,11 @@ should see this with the Boot Status of 4002. The boot status is remembered on t
 to boot normally until you change this setting back to Normal(4000). No amount of rebooting the device will fix this
 and is a common problem with people.</p>
 
-<p><img src="/images/KindleFire/KFUFastBoot.png"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/KFUFastBoot.png"></p>
 
 <p>Don&#8217;t press any number and just hit enter to return to the home screen</p>
 
-<p><img src="/images/KindleFire/KFUHome.png"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/KFUHome.png"></p>
 
 <p>From this main menu hit 3 and enter to install TWRP which is a recovery software that will need later
 More information on what it is/does can be found here <a href="http://www.teamw.in/project/twrp2">TeamWin</a></p>
@@ -293,13 +123,13 @@ to Normal(4000) at this point. Follow the same steps we did above to change it i
 <p>You can disconnect your device from the computer and reboot it.
 The first screen that you should see when it reboots is this one</p>
 
-<p><img src="/images/KindleFire/FireFireFireMain.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/FireFireFireMain.jpg"></p>
 
 <p>My images are a little fuzzy but the bottom of the screen says &#8220;Press power button for boot menu&#8221;
 If you tap the power button (possibly a couple times if it doesn&#8217;t recognize it right away)
 You should see it turn into the menu below.</p>
 
-<p><img src="/images/KindleFire/FireFireFireMenu.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/FireFireFireMenu.jpg"></p>
 
 <p>Which says:<br/>
 Normal Boot<br/>
@@ -310,30 +140,30 @@ Reset Boot Mode</p>
 stop and in a few seconds it will start booting up TWRP which we installed earlier. It will say &#8220;Booting&#8230;&#8221;
 at the bottom of the screen for a few seconds and then should show this image for a second or so</p>
 
-<p><img src="/images/KindleFire/TeamWinLogo.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/TeamWinLogo.jpg"></p>
 
 <p>and then it will slide out of the way showing you the TWRP Menu.</p>
 
-<p><img src="/images/KindleFire/TWRPMenu.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/TWRPMenu.jpg"></p>
 
 <p>Press on the &#8220;Wipe&#8221; button and you will see this screen.</p>
 
-<p><img src="/images/KindleFire/KFWipe.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/KFWipe.jpg"></p>
 
 <p>Press on &#8220;Factory Reset&#8221; button and this screen will show.</p>
 
-<p><img src="/images/KindleFire/TWRPReset.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/TWRPReset.jpg"></p>
 
 <p>Just swipe to reset the device to Factory Defaults.</p>
 
 <p>Then click on the House shaped icon in the top right to return to the main menu.
 Click on the &#8220;Reboot&#8221; button</p>
 
-<p><img src="/images/KindleFire/TWRPReboot.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/TWRPReboot.jpg"></p>
 
 <p>Click on &#8220;System&#8221; and the device will reboot and you will see this screen again.</p>
 
-<p><img src="/images/KindleFire/FireFireFireMenu.jpg"></p>
+<p><img src="http://JordanZaerr.github.com/images/KindleFire/FireFireFireMenu.jpg"></p>
 
 <p>Hit the power button a few times and choose &#8220;Normal Boot&#8221; instead of &#8220;Recovery&#8221; as we did before
 and after a bit of time you should be presented with the screens for setting up your kindle.</p>
@@ -343,47 +173,18 @@ and you can reset it if happens again. Depending on exactly what happened to you
 be able to get away with just clearing the cache but the factory reset should pretty much
 always do the trick even if it is annoying to have to reconfigure the device and pull your apps
 back down from the cloud.</p>
-</div>
+]]></content>
+  </entry>
   
-  
+  <entry>
+    <title type="html"><![CDATA[Service Watcher]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2012/11/16/servicewatcher/"/>
+    <updated>2012-11-16T13:40:00-07:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2012/11/16/servicewatcher</id>
+    <content type="html"><![CDATA[<!--Yes I know this is bad...-->
 
 
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2012/11/16/servicewatcher/">Service Watcher</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-11-16T13:40:00-07:00" pubdate data-updated="true">Nov 16<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><!--Yes I know this is bad...-->
-
-
-<p><img src="/images/ServiceWatcher/ServiceWatcher.jpg" style="float: left; margin-right: 15px;"></p>
+<p><img src="http://JordanZaerr.github.com/images/ServiceWatcher/ServiceWatcher.jpg" style="float: left; margin-right: 15px;"></p>
 
 <p>You can grab the code from here:
 <a href="https://github.com/JordanZaerr/ServiceWatcher">Service Watcher</a></p>
@@ -405,45 +206,16 @@ the IP address where the services are running.
 
 <p>You can quickly find the service short name by looking it up in the task manager on the Services tab.</p>
 
-<p><img src="/images/ServiceWatcher/TaskManager.jpg"></p>
-</div>
+<p><img src="http://JordanZaerr.github.com/images/ServiceWatcher/TaskManager.jpg"></p>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <!-- Now we're back to normal posts. Note the links used under href in both headers.-->
-        <h1 class="entry-title"><a href="/blog/2012/10/12/wma-repair-using-yeti/">WMA Repair Using Yeti</a></h1>
-      
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-10-12T13:11:00-06:00" pubdate data-updated="true">Oct 12<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Figured I would put this up here, mostly for my own reference for some of the links down below.
+  <entry>
+    <title type="html"><![CDATA[WMA repair using Yeti]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti/"/>
+    <updated>2012-10-12T13:11:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti</id>
+    <content type="html"><![CDATA[<p>Figured I would put this up here, mostly for my own reference for some of the links down below.
 Yeti can be grabbed from its <a href="https://github.com/mtscout6/yeti">git repository</a>.</p>
 
 <div><script src='https://gist.github.com/3881245.js?file='></script>
@@ -484,117 +256,7 @@ can be found <a href="http://www.microsoft.com/en-us/download/details.aspx?id=12
 I will mention that the broken.wma file that I used is horrendous audio quality since I recorded it
 with earbuds held up to my laptop&#8217;s microphone. It is just 40 seconds of the mp3 that is also in the examples.
 The music is from djabacus who is a friend of mine and some of his music can be found <a href="http://www.djabacus.net">here on the audio tab</a> for free.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/09/12/polymer/">Polymer</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/04/25/dart/">Dart</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/02/18/signalr/">SignalR</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/04/24/resettingkindlefire/">Fixing a Kindle Fire Stuck in Bootloop</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/11/16/servicewatcher/">Service Watcher</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/JordanZaerr">@JordanZaerr</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'JordanZaerr',
-            count: 10,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Jordan Zaerr -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'jordanzaerrblog';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</html>
+</feed>

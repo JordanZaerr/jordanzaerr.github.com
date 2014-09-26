@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Kindle | Jordan Zaerr's Blog]]></title>
+  <link href="http://JordanZaerr.github.com/blog/categories/kindle/atom.xml" rel="self"/>
+  <link href="http://JordanZaerr.github.com/"/>
+  <updated>2014-09-26T17:29:27-06:00</updated>
+  <id>http://JordanZaerr.github.com/</id>
+  <author>
+    <name><![CDATA[Jordan Zaerr]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Fixing a Kindle Fire Stuck in Bootloop]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2013/04/24/resettingkindlefire/"/>
+    <updated>2013-04-24T20:13:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2013/04/24/resettingkindlefire</id>
+    <content type="html"><![CDATA[<p>Basically boot looping is when you see the "Kindle Fire" logo over and over again when
+you power on the device and it doesn't do anything else.</p>
+
+<p>I have no idea what happens to the Kindle Fire to get it into this state but my sister
+managed to do it and this is how I fixed it. This will replace the bootloader on the device
+and reset it to factory settings. Everything that you have stored on the device will be gone
+and you will have to reconfigure the device. Basically as if you had just received your kindle for
+the first time. Once you enter your account information it will sync with your Amazon account and you
+can redownload anything that you had in your cloud storage and your books will sync with the device.
+So not everything is lost but it is an inconvenience.</p>
+
+<p>The nice part about this approach is if something like this happens again you should be able to fix
+it on the device without having to attach it to a computer.</p>
+
+<p>This is just a stock first generation Kindle Fire and the software mentioned in this post
+only works on the first generation and will cause problems if used on other generations.</p>
+
+<p>The first thing you are going to need is the Kindle Fire Utility which can be found here:
+<a href="http://forum.xda-developers.com/showthread.php?t=2192818">Kindle Fire Utility</a></p>
+
+<p>My screenshots are using version 0.9.6 and the link I provided at the time of posting
+is for version 0.9.9 but the menu choices are basically the same.
+The older thread with version 0.9.6 is here: <a href="http://forum.xda-developers.com/showthread.php?t=1399889">Kindle Fire Utility unmanged thread</a></p>
+
+<p>Install the drivers for the kindle by running the drivers.bat file that is found in the
+Kindle Fire Utility download and plug in the kindle fire into your computer.</p>
+
+<p>Once your device is recognized by your computer start the Kindle Fire Utility by running the run.bat
+file and you should see the following</p>
+
+<p><img src="/images/KindleFire/KFUHome.png"></p>
+
+<p>If your boot status isn't 4000 that fine we are about to change it into fastboot(4002) anyway to
+install some additional software. You do have to have an ADB Status of "Online" though.</p>
+
+<p>Hit 1 and press enter to choose the Bootmode Menu and you should be looking at</p>
+
+<p><img src="/images/KindleFire/KFUBoot.png"></p>
+
+<p>Hit 2 and enter and your device should reboot in a few seconds and stay on the "Kindle Fire" logo.</p>
+
+<p>You can keep hitting 0 and enter to recheck the ADB/Bootstatus of the device and once it is rebooted you
+should see this with the Boot Status of 4002. The boot status is remembered on the device and won't allow you
+to boot normally until you change this setting back to Normal(4000). No amount of rebooting the device will fix this
+and is a common problem with people.</p>
+
+<p><img src="/images/KindleFire/KFUFastBoot.png"></p>
+
+<p>Don't press any number and just hit enter to return to the home screen</p>
+
+<p><img src="/images/KindleFire/KFUHome.png"></p>
+
+<p>From this main menu hit 3 and enter to install TWRP which is a recovery software that will need later
+More information on what it is/does can be found here <a href="http://www.teamw.in/project/twrp2">TeamWin</a></p>
+
+<p>After that finishes installing get back to the main menu again and hit 5 and enter to install the
+FireFireFire bootloader.</p>
+
+<p>If those two things installed successfully you can go back into the Bootmode Menu and change it back
+to Normal(4000) at this point. Follow the same steps we did above to change it into FastBoot(4002).</p>
+
+<p>You can disconnect your device from the computer and reboot it.
+The first screen that you should see when it reboots is this one</p>
+
+<p><img src="/images/KindleFire/FireFireFireMain.jpg"></p>
+
+<p>My images are a little fuzzy but the bottom of the screen says "Press power button for boot menu"
+If you tap the power button (possibly a couple times if it doesn't recognize it right away)
+You should see it turn into the menu below.</p>
+
+<p><img src="/images/KindleFire/FireFireFireMenu.jpg"></p>
+
+<p>Which says:<br/>
+Normal Boot<br/>
+Recovery<br/>
+Reset Boot Mode</p>
+
+<p>Keep tapping the power button until it selects the Recovery option as in the picture. Once it is selected
+stop and in a few seconds it will start booting up TWRP which we installed earlier. It will say "Booting..."
+at the bottom of the screen for a few seconds and then should show this image for a second or so</p>
+
+<p><img src="/images/KindleFire/TeamWinLogo.jpg"></p>
+
+<p>and then it will slide out of the way showing you the TWRP Menu.</p>
+
+<p><img src="/images/KindleFire/TWRPMenu.jpg"></p>
+
+<p>Press on the "Wipe" button and you will see this screen.</p>
+
+<p><img src="/images/KindleFire/KFWipe.jpg"></p>
+
+<p>Press on "Factory Reset" button and this screen will show.</p>
+
+<p><img src="/images/KindleFire/TWRPReset.jpg"></p>
+
+<p>Just swipe to reset the device to Factory Defaults.</p>
+
+<p>Then click on the House shaped icon in the top right to return to the main menu.
+Click on the "Reboot" button</p>
+
+<p><img src="/images/KindleFire/TWRPReboot.jpg"></p>
+
+<p>Click on "System" and the device will reboot and you will see this screen again.</p>
+
+<p><img src="/images/KindleFire/FireFireFireMenu.jpg"></p>
+
+<p>Hit the power button a few times and choose "Normal Boot" instead of "Recovery" as we did before
+and after a bit of time you should be presented with the screens for setting up your kindle.</p>
+
+<p>That's it and if it ever happens again the software to fix the problem is already on the device
+and you can reset it if happens again. Depending on exactly what happened to your Kindle Fire you
+be able to get away with just clearing the cache but the factory reset should pretty much
+always do the trick even if it is annoying to have to reconfigure the device and pull your apps
+back down from the cloud.</p>
+]]></content>
+  </entry>
+  
+</feed>

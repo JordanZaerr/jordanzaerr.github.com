@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Yeti | Jordan Zaerr's Blog]]></title>
+  <link href="http://JordanZaerr.github.com/blog/categories/yeti/atom.xml" rel="self"/>
+  <link href="http://JordanZaerr.github.com/"/>
+  <updated>2014-09-26T17:29:27-06:00</updated>
+  <id>http://JordanZaerr.github.com/</id>
+  <author>
+    <name><![CDATA[Jordan Zaerr]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[WMA repair using Yeti]]></title>
+    <link href="http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti/"/>
+    <updated>2012-10-12T13:11:00-06:00</updated>
+    <id>http://JordanZaerr.github.com/blog/2012/10/12/wma-repair-using-yeti</id>
+    <content type="html"><![CDATA[<p>Figured I would put this up here, mostly for my own reference for some of the links down below.
+Yeti can be grabbed from its <a href="https://github.com/mtscout6/yeti">git repository</a>.</p>
+
+<p><div><script src='https://gist.github.com/3881245.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>As you can see this is a simple one liner. It takes in the filename and will repair it in place.
+Making a copy of the file before it's repaired might be a good idea. This method reconstructs the header information
+on the WMA file so that it is in a valid state again.  This fixes issues like players not knowing the length of the file,
+not being able to skip through the file, and more importantly not being able to convert the file to another format or
+splicing/combining. You can alternatively pass a stream into the method instead of a file name. The second parameter should
+almost always be false. It signifies if the filepath/stream being passed in is from a broadcast.</p>
+
+<p>Some notable classes would be the FileProperties
+<div><script src='https://gist.github.com/3881775.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>and DataProperties
+<div><script src='https://gist.github.com/3881787.js?file='></script>
+<noscript><pre><code></code></pre></noscript></div>
+</p>
+
+<p>These are the classes that read and write the header information for the file.
+The header/section guid's from the ASF spec are in Yeti for the other areas
+but the classes that would read and write those values haven't been created.</p>
+
+<p>If you want to know what those guids are for and what data they point to that information can be found in the ASF specification document found
+<a href="http://www.microsoft.com/en-us/download/details.aspx?id=14995">here</a>.</p>
+
+<p>Another tool that is incredibly helpful for figuring out what is wrong with your file is the 'Windows Media ASF Viewer'.
+It can tell you any format errors that you have with the file and the structure of the data in your file. The download link
+can be found <a href="http://www.microsoft.com/en-us/download/details.aspx?id=12826">here</a>.</p>
+
+<p>I have some running examples of this here: <a href="https://github.com/JordanZaerr/Yeti-Examples">Yeti-Examples</a>.
+I will mention that the broken.wma file that I used is horrendous audio quality since I recorded it
+with earbuds held up to my laptop's microphone. It is just 40 seconds of the mp3 that is also in the examples.
+The music is from djabacus who is a friend of mine and some of his music can be found <a href="http://www.djabacus.net">here on the audio tab</a> for free.</p>
+]]></content>
+  </entry>
+  
+</feed>
