@@ -1,0 +1,16 @@
+---
+layout: post
+title: "SignalR"
+date: 2014-02-18 15:29
+comments: true
+categories: 
+- signalR 
+- chatroom
+- websockets
+---
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/Hv6ZAWFOfRE" frameborder="0" allowfullscreen></iframe>
+
+I'll be the first to admit I'm not the best presenter out there and this was the first one I've given in awhile but hopefully it will prove useful.
+
+The code for this post/video can be grabbed from its [git repository](https://github.com/JordanZaerr/ChatRoom).

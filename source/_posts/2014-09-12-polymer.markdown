@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Polymer"
+date: 2014-09-12 15:50
+comments: true
+categories: 
+- Polymer
+- web components
+- UTA
+- expressjs
+- nodejs
+---
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/aFWNw9h5Qoc" frameborder="0" allowfullscreen></iframe>
+
+There is a live demo of this application pushed to Heroku [here](http://trainroutepolymer.herokuapp.com/)
+
+The code for this post/video can be grabbed from its [git repository](https://github.com/JordanZaerr/TrainRoutesPolymer).
