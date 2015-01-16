@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UTA | Jordan Zaerr's Blog]]></title>
   <link href="http://JordanZaerr.github.com/blog/categories/uta/atom.xml" rel="self"/>
   <link href="http://JordanZaerr.github.com/"/>
-  <updated>2015-01-16T08:44:46-07:00</updated>
+  <updated>2015-01-16T09:01:02-07:00</updated>
   <id>http://JordanZaerr.github.com/</id>
   <author>
     <name><![CDATA[Jordan Zaerr]]></name>
@@ -21,7 +21,7 @@
     <content type="html"><![CDATA[<iframe width="560" height="315" src="http://JordanZaerr.github.com//www.youtube.com/embed/aFWNw9h5Qoc" frameborder="0" allowfullscreen></iframe>
 
 
-<p>There is a live demo of this application pushed to Heroku <a href="https://trainroutepolymer.herokuapp.com/">here</a></p>
+<p>There is a live demo of this application pushed to Heroku <a href="http://trainroutepolymer.herokuapp.com/">here</a></p>
 
 <p>The code for this post/video can be grabbed from its <a href="https://github.com/JordanZaerr/TrainRoutesPolymer">git repository</a>.</p>
 ]]></content>
